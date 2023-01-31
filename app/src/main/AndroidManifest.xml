@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/app_face_round"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        tools:targetApi="31"
+        android:usesCleartextTraffic="true">
+
+        <activity
+            android:name=".MyChatActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/ChatTheme"/>
+        <activity
+            android:name=".Profile_Activity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/ChatTheme"/>
+        <activity
+            android:name=".Splash_Activity"
+            android:exported="true"
+            android:theme="@style/ChatTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".login_form.Forget_Activity"
+            android:exported="false"
+            android:parentActivityName=".login_form.Sign_in_Activity"
+            android:theme="@style/appTheme"/>
+        <activity
+            android:name=".login_form.Sign_up_Activity"
+            android:exported="false"
+            android:parentActivityName=".login_form.Sign_in_Activity"
+            android:theme="@style/appTheme"/>
+        <activity
+            android:name=".login_form.Sign_in_Activity"
+            android:exported="false"
+            android:theme="@style/appTheme"/>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/appTheme"/>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

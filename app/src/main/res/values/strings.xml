@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Chatter</string>
+    <string name="chatter">Chatter</string>
+    <string name="feel_free_to_chat">Feel free to chat</string>
+    <string name="feel_free_to_joy">Feel free to Joy!</string>
+
+    <string name="signUp_text">Don\'t have an account <font color="#FF9C27B0"><b>Sign Up! </b></font></string>
+    <string name="signin_page">SignIn Page</string>
+    <string name="email">email</string>
+    <string name="password">Password</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="signup_page">SignUp Page</string>
+    <string name="user_name">User Name</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="todo">TODO</string>
+    <string name="reset">Reset</string>
+    <string name="forget_password_slogan">Forget Password</string>
+    <string name="profile">Profile</string>
+    <string name="textview">textView</string>
+</resources>
